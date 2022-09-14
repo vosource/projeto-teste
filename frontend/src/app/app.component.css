@@ -1,0 +1,87 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(23, 162, 184, 0.9), rgba(0, 128, 110, 0.9)), url('../assets/images/background-imagem.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.card {
+  height: 480px;
+  width: 417px;
+  border-radius: 19px;
+}
+
+form {
+  width: 100%;
+}
+
+.card-body {
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.header img {
+  width: 170px;
+  height: 52px;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #3E4855;
+  letter-spacing: 3px;
+}
+
+i {
+  color: #6C757D;
+  font-size: 18px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 210px;
+}
+
+input {
+  border: 0px;
+  background: #EEEEEE;
+  height: 42px;
+}
+
+.input-group-text {
+  border: 0px;
+  background: #EEEEEE;
+}
+
+.form-control:focus {
+  background-color: #EEEEEE;
+}
+
+.btn {
+  margin-top: 10px;
+  height: 42px;
+  border-radius: 5px;
+}
+
+.keepSigned {
+  display: flex;
+  align-items: center;
+}
+
+.keepSigned app-toggle {
+  margin-right: 10px;
+}

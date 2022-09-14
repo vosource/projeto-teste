@@ -1,0 +1,513 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700);
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #3c3c3c;
+  background-color: #fbfbfb;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+p {
+  font-size: 12px;
+}
+
+/* Cores */
+
+.verde {
+  color: #00806e;
+}
+
+.laranja {
+  color: #ff9016;
+}
+
+.amarela {
+  color: #ffc107;
+}
+
+.azul {
+  color: #00afab;
+}
+
+.preta {
+  color: #3c3c3c;
+}
+
+.cinza {
+  color: #6c757d;
+}
+
+.vermelha {
+  color: red;
+}
+
+a:not(.btn) {
+  color: #3e4855;
+}
+
+a:hover {
+  color: #3e4855;
+}
+
+.mat-spinner circle {
+  stroke: #fff;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.noty_bar {
+  border: 1px solid lightgray !important;
+}
+
+.noty_body {
+  text-align: justify;
+}
+
+/* Icones */
+
+i {
+  color: #00806f;
+  font-size: 20px;
+}
+
+/* botoes */
+
+.clickable {
+  cursor: pointer;
+}
+
+.btn {
+  font-size: 14px;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+.btn-default {
+  border-color: #ced4da;
+  background-color: #fff;
+}
+
+.btn-default:hover {
+  border-color: #bfc8d1;
+  background-color: #f3f3f9;
+}
+
+.btn-default.active {
+  border-color: #c3c3c3;
+  background-color: #ececec;
+}
+
+.btn-primary,
+.btn-primary:disabled {
+  background-color: #00806e;
+  border-color: #00806e;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+  border-color: #00806e;
+  background-color: #00a28c;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  border-color: #00806e;
+  background-color: #00a28c;
+}
+
+.btn-outline-primary,
+.btn-outline-primary:disabled {
+  border-color: #00806e;
+  color: #00806e;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.show > .btn-outline-primary.dropdown-toggle {
+  border-color: #00806e;
+  background-color: #00a28c;
+  color: #fff;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:active,
+.btn-outline-primary-:focus {
+  border-color: #00806e;
+  background-color: #00a28c;
+  color: #fff;
+}
+
+/* Cor secundária de botão */
+
+.btn-secondary,
+.btn-secondary:disabled {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:focus {
+  border-color: #6c757d;
+  background-color: #6c757d;
+}
+
+.btn-outline-secondary {
+  border-color: #6c757d;
+  color: #6c757d;
+}
+
+.btn-outline-secondary:disabled {
+  opacity: 0.4;
+}
+
+.btn-outline-secondary:not(:disabled):not(.disabled).active,
+.btn-outline-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-outline-secondary.dropdown-toggle {
+  border-color: #6c757d;
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:active,
+.btn-outline-secondary-:focus {
+  border-color: #6c757d;
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn-link {
+  color: #3c3c3c;
+  border: none;
+}
+
+.btn-link:hover {
+  color: #3c3c3c;
+}
+
+.btn-link.active {
+  color: #3c3c3c;
+}
+
+.input-group-append > button {
+  height: 32px;
+}
+
+input:hover,
+input:active,
+input:focus {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+/* Cards */
+
+.card {
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.card:hover {
+  box-shadow: 0px 1px 6px #00000029;
+}
+
+.card-body {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0 1% 0;
+}
+
+/* Chat Movidesk */
+#md-app-widget {
+  bottom: 0px !important;
+}
+
+#md-app-widget.md-chat-widget-wrapper.RightSide .md-chat-widget-btn-container {
+  right: unset !important;
+  left: 10px;
+}
+
+#md-app-widget.md-chat-widget-wrapper.RightSide .md-chat-widget-container {
+  right: unset !important;
+  left: 10px;
+}
+
+/** scroll bar */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+}
+
+.form-control:focus,
+.btn:not(.btn-warning):not(.btn-danger):focus {
+  border-color: rgba(0, 175, 171, 0.6) !important;
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.1rem rgba(0, 175, 171, 0.45) !important;
+}
+
+input,
+textarea,
+select,
+button,
+mat-select.form-control {
+  font-size: 13px !important;
+  color: #3c3c3c;
+}
+
+input.ng-valid[required],
+input.required.ng-touched:not(:focus),
+.ng-valid.required:not(:focus),
+.ng-valid[required] input.required:not(:focus),
+app-vo-select[required].ng-touched.ng-valid .select2-selection {
+  border: 1px solid #4ba064 !important;
+}
+
+input.ng-invalid[required].ng-touched,
+.ng-invalid.required.ng-touched:not(:focus),
+input.ng-invalid.ng-touched:not(:focus),
+.ng-invalid[required] input.required:not(:focus),
+app-vo-select[required].ng-touched.ng-invalid .select2-selection {
+  border: 1px solid #dc3545 !important;
+}
+
+.control-label.required:after,
+.form-group label.required:after {
+  color: #d00;
+  content: "*";
+  margin-left: 5px;
+  top: 7px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* select */
+
+.select2-container .select2-selection--single {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  height: 32px !important;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__rendered {
+  color: #444;
+  line-height: 32px;
+}
+
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow {
+  height: 32px;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 20px;
+}
+
+.select2-results__option--highlighted {
+  background-color: #00806e !important;
+}
+
+.select2-selection,
+.select2-selection--multiple,
+.select2-dropdown input.select2-search__field,
+.select2-dropdown {
+  border: 1px solid #ced4da !important;
+}
+
+.select2-selection:focus-within,
+.select2-dropdown:focus-within {
+  border-color: rgba(0, 175, 171, 0.6) !important;
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.2rem rgba(0, 175, 171, 0.45) !important;
+}
+
+.select2-search__field:focus {
+  outline: none !important;
+}
+
+input.select2-search__field {
+  width: 100% !important;
+}
+
+/* select */
+
+.mat-button-toggle-label-content {
+  line-height: 32px !important;
+}
+
+.bg-primary {
+  background-color: #00806e !important;
+}
+/* datepicker */
+
+.bs-datepicker-container {
+  padding: 0px;
+}
+
+.bs-datepicker-head {
+  background-color: #00806e !important;
+}
+
+.bs-datepicker-body table td span.selected {
+  background-color: #00afab !important;
+}
+
+.bs-datepicker-body table td.week span {
+  color: #00806e !important;
+}
+
+/* datepicker */
+
+.modal-content {
+  margin-top: 50% !important;
+}
+
+/* tabela */
+
+.table > tr {
+  height: 35 !important;
+}
+
+.table > tfoot > tr > th,
+.table > thead > tr > th {
+  color: #4b5056;
+  background-color: #e8e8e8;
+}
+
+.table th:not(.sorting):not(.sorting_desc):not(.sorting_asc),
+.table td {
+  padding: 0.55rem !important;
+  vertical-align: middle !important;
+}
+
+.table tbody tr:hover {
+  background-color: #00adab33 !important;
+}
+
+.table tbody tr.tr-selected,
+.table tbody tr.selected {
+  background: #00afab66 !important;
+}
+
+.table-buttons {
+  margin-bottom: 10px;
+}
+
+.table-bordered {
+  border: 1px solid #dedede;
+}
+
+.loading {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/** tooltip
+ver com cor laranja #ff9016
+.tooltip-inner {
+  background-color: #00806f;
+  opacity: 1;
+}
+
+.tooltip.bs-tooltip-right .arrow:before {
+  border-right-color: #00806f !important;
+}
+
+.tooltip.bs-tooltip-left .arrow:before {
+  border-left-color: #00806f !important;
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+  border-bottom-color: #00806f !important;
+}
+
+.tooltip.bs-tooltip-top .arrow:before {
+  border-top-color: #00806f !important;
+}
+*/
+
+.atalho {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+.atalho.mostrar {
+  display: block;
+}
+
+.atalho .inner {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #f3f2f2cc;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
