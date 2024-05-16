@@ -66,7 +66,6 @@
                     <suppressCommitBeforeTag>false</suppressCommitBeforeTag>
                     <pushChanges>true</pushChanges>
                     <updateBranchVersions>true</updateBranchVersions>
-                    <connectionUrl>scm:git:ssh://git@github.com/canalvpsa/venda_mobile.git</connectionUrl>
                 </configuration>
             </plugin>
         </plugins>
